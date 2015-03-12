@@ -8,37 +8,29 @@
 * TABLE OF CONTENTS
 * ==================
 * 1. Utility Styles
-* 2. Test Styles
+* 2. Example Styles
 *
 ********************************************/
 
 /********************************************
 * Utility Styles
 ********************************************/
+main {padding: 50px 0;}
 
 /********************************************
-* Flexbox Sticky Footer
-*
-* These rules keep the footer
-* at the bottom of viewport.
-*
-* .site goes on <body>
-* .site-content goes on main content wrapper
-*
-* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+* Example Styles
 ********************************************/
-/*.site {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+.qa-panel {
+	background-color: #eee;
+	border: 5px solid #ddd;
+	color: rebeccapurple;
+	cursor: pointer;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 20px;
+	padding: 20px;
 }
 
-.site-content {
-	flex: 1;
-}*/
-
-
-
-/********************************************
-* Test Styles
-********************************************/
+#answer {
+	display: none;
+}
