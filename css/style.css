@@ -5,40 +5,54 @@
 * https://bootcamp-coders.cnm.edu/~rlewis37/bootstrap-sandbox
 * @author rlewis37@cnm.edu
 *
-* TABLE OF CONTENTS
-* ==================
-* 1. Utility Styles
-* 2. Test Styles
-*
 ********************************************/
 
 /********************************************
-* Utility Styles
+* Base Styles
 ********************************************/
-
-/********************************************
-* Flexbox Sticky Footer
-*
-* These rules keep the footer
-* at the bottom of viewport.
-*
-* .site goes on <body>
-* .site-content goes on main content wrapper
-*
-* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-********************************************/
-/*.site {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+header {
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
 }
 
-.site-content {
-	flex: 1;
-}*/
-
-
+main 	{
+	margin-top: 40px;
+}
 
 /********************************************
-* Test Styles
+* Navbar Styles
 ********************************************/
+.navbar {
+	margin: 0;
+}
+
+.navbar-brand {
+	font-size: 2em;
+}
+
+button.nav-button {
+	margin: 8px 0 8px 10px;
+}
+
+.navbar-toggle {
+	border: 1px solid #ddd;
+	padding: 10px 15px;
+	margin: 0;
+}
+
+/********************************************
+* Form Styles
+********************************************/
+.dropdown-menu p {
+	padding: 10px 15px 0;
+	margin: 0;
+}
+
+.navbar-form input {
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-form {margin: 0;}
+}
+
