@@ -16,7 +16,7 @@
 		</main>
 
 		<!--footer include-->
-		<?php require_once("lib/footer.html"); ?>
+		<?php /*require_once("lib/footer.html"); */?>
 
 	</body>
 </html>
