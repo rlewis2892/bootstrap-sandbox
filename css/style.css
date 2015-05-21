@@ -30,6 +30,9 @@ main 	{
 	font-size: 2em;
 }
 
+.nav a.nav-button { padding: 6px 12px;}
+
+a.nav-button,
 button.nav-button {
 	margin: 8px 0 8px 10px;
 }

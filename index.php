@@ -37,7 +37,7 @@
           &lt;li&gt;&lt;a href="#"&gt;Link1&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href="#"&gt;Link2&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href="#"&gt;Link3&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;button class="nav-button btn btn-default"&gt;Sign Up&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#" class="nav-button btn btn-default"&gt;Sign Up&lt;/a&gt;&lt;/li&gt;
           &lt;li class="dropdown"&gt;
             &lt;button type="button" class="nav-button dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-expanded="false"&gt;Sign In&nbsp;&nbsp;&lt;span class="caret"&gt;&lt;/span&gt;&lt;/button&gt;
 
