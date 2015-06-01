@@ -4,17 +4,18 @@
 		<?php require_once("lib/head-utils.html"); ?>
 		<title>Bootstrap Sandbox</title>
 	</head>
-	<body>
+	<body class="site">
 
 		<!--header include-->
 		<?php require_once("lib/header.html"); ?>
 
-		<main>
+		<main class="site-content">
 			<div class="container">
 
 				<!-- **************** -->
 				<!--Start Example Here-->
 				<!-- **************** -->
+				<p>Examine the source code on this page for the sticky footer and jQuery slideToggle.</p>
 
 				<!--This is the clickable question div-->
 				<div class="qa-panel" id="question">
