@@ -47,11 +47,15 @@ a { color: white;}
 	text-align: center;
 }
 
+.icon-bar {
+	background-color: white;
+}
+
+
 /********************************************
 * Footer Styles
 ********************************************/
 .footer {
-	height: 50px;
 	padding: 20px 0;
 }
 
