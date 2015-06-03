@@ -1,45 +1,64 @@
 /********************************************
-* Custom CSS Styles for Bootstrap Sandbox
-* A troubleshooting Project
+* Custom CSS Styles for Sample Parallax
+* DDC Student Server Class Materials
+* bootcamp-coders.cnm.edu/classmaterials
 *
-* https://bootcamp-coders.cnm.edu/~rlewis37/bootstrap-sandbox
 * @author rlewis37@cnm.edu
 *
 * TABLE OF CONTENTS
 * ==================
-* 1. Utility Styles
-* 2. Example Styles
+* 1. Primary Page Base Styles
+* 2. Navigation Styles
+* 3. Content Base Styles
+* 4. Welcome Section Styles
+* 5. About Section Styles
+* 6. Contact Section Styles
+* 7. Footer Styles
 *
 ********************************************/
 
 /********************************************
-* Utility Styles
+* Primary Base Styles
 ********************************************/
-main {padding: 50px 0;}
-
-/********************************************
-* Example Styles
-********************************************/
-.qa-panel {
-	background-color: #eee;
-	border: 5px solid #ddd;
-	color: rebeccapurple;
-	cursor: pointer;
-	font-size: 1.25em;
-	font-weight: bold;
-	margin: 20px;
-	padding: 20px;
+body {
+	color: white;
 }
 
-#answer {
-	display: none;
+a { color: white;}
+
+/*this is the background image*/
+.bg-sky {
+	background: url("../images/CloudCover.jpg") no-repeat center top fixed;
+	background-size: cover;
+}
+
+/********************************************
+* Navigation Styles
+********************************************/
+.navbar {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.welcome {
+	text-align: center;
+}
+
+/********************************************
+* Footer Styles
+********************************************/
+.footer {
+	height: 50px;
+	padding: 20px 0;
 }
 
 /********************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ********************************************/
-
 .site {
 	display: flex;
 	min-height: 100vh;
@@ -51,11 +70,16 @@ main {padding: 50px 0;}
 }
 
 /********************************************
-* Footer Styles
+* slideToggle Placeholder Styles
+* Edit as you see fit
 ********************************************/
-footer {
-	background: fuchsia;
-	color: white;
-	font-weight: bold;
-	padding: 20px 0;
+.qa-panel {
+	border: 1px solid;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+#answer {
+	/*this hides the answer by default*/
+	display: none;
 }
