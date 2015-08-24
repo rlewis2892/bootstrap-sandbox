@@ -15,14 +15,6 @@ header {
 	border-bottom: 1px solid #ddd;
 }
 
-main 	{
-	margin: 20px 0 30px 0;
-}
-
-.welcome-msg {
-	margin-bottom: 30px;
-}
-
 /********************************************
 * Navbar Styles
 ********************************************/
@@ -38,11 +30,6 @@ main 	{
 
 .nav a.nav-button { padding: 6px 12px;}
 
-a.nav-button,
-button.nav-button {
-	margin: 8px 0 8px 10px;
-}
-
 .navbar-toggle {
 	border: 1px solid #ddd;
 	padding: 10px 15px;
@@ -52,46 +39,12 @@ button.nav-button {
 /********************************************
 * Side Panel Styles
 ********************************************/
-.side-panel {
-	background: violet;
-	padding: 20px;
-	flex: 1;
-}
 
-.side-panel-column {
-	display: flex;
-	min-height: 50vh;
-}
-
-@media only screen and (max-width: 992px){
-	.side-panel {
-		margin-bottom: 30px;
-	}
-}
 
 /********************************************
 * Form Styles
 ********************************************/
-.searchForm {
-	display: none;
-}
 
-.dropdown-menu p {
-	padding: 10px 15px 0;
-	margin: 0;
-}
-
-.navbar-form input {
-	margin-bottom: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-	.navbar-form {margin: 0;}
-}
-
-form > label {
-	font-size: 1.2em;
-}
 
 /********************************************
 * Footer Styles
