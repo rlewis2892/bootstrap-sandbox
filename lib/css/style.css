@@ -37,14 +37,15 @@ header {
 }
 
 /********************************************
-* Side Panel Styles
+* Product Item Styles
 ********************************************/
-
-
-/********************************************
-* Form Styles
-********************************************/
-
+@media only screen and (min-width: 768px) {
+	.item-horiz > img {
+		float: left;
+		width: 30%;
+		margin-right: 20px;
+	}
+}
 
 /********************************************
 * Footer Styles

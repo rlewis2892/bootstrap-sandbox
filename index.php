@@ -20,10 +20,12 @@ require_once("lib/template/head-utils.php");
 			<div class="col-xs-12">
 				<h2>Products</h2>
 				<p>Flannel listicle biodiesel put a bird on it Helvetica. Craft beer +1 selvage, artisan occupy Etsy health goth mumblecore YOLO heirloom wayfarers slow-carb chambray fingerstache. Health goth synth viral messenger bag Pinterest, artisan YOLO selfies pug ugh. Tote bag selvage skateboard kale chips. Skateboard polaroid typewriter, cold-pressed Helvetica tousled roof party retro butcher crucifix pop-up salvia. Brooklyn cold-pressed whatever sartorial, butcher skateboard deep v pug typewriter four dollar toast actually flexitarian beard heirloom organic. Health goth wolf wayfarers, quinoa cornhole Vice tattooed Carles selvage.</p>
+				<p>See <a href="http://getbootstrap.com/components/#thumbnails-custom-content" target="_blank">Bootstrap Images Custom Content</a> documentation for reference on this layout.</p>
 			</div>
 		</div>
-
-
+		<hr>
+		<!--i created a page with all the product items here-->
+		<?php require_once("lib/template/products.php"); ?>
 	</div><!--.container-->
 </div><!--.site-content-->
 
