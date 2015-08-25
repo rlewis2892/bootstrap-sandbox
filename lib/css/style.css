@@ -67,3 +67,28 @@ header {
 .site-content {
 	flex: 1;
 }
+
+/********************************************
+* Bootstrap Flexbox
+* Equal height boxes using Flexbox
+********************************************/
+.thumbnail {
+	width: 100%;
+}
+
+.row-flex {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+	align-content: flex-start;
+	flex: 0;
+}
+
+.row-flex > div[class*="col-"] {
+	display: flex;
+	flex: 1 1 auto;
+	margin: -.2px;
+}
