@@ -8,128 +8,40 @@
 ********************************************/
 
 /********************************************
-* Base Styles
+* Sample Styles
 ********************************************/
+header,
+footer {
+	background-color: #dddddd;
+}
+
 header {
 	padding: 20px 0;
-	border-bottom: 1px solid #ddd;
 }
 
-.site-content {
-	padding-bottom: 50px;
-}
-
-/********************************************
-* Navbar Styles
-********************************************/
 .navbar {
-	margin: 0;
+	margin-bottom: 0;
 }
 
-.navbar-brand {
-	font-size: 2em;
-	padding-left: 0;
-	padding-right: 0;
+footer {
+	padding: 20px 0;
 }
 
-.nav a.nav-button { padding: 6px 12px;}
-
-.navbar-toggle {
-	border: 1px solid #ddd;
-	padding: 10px 15px;
-	margin: 0;
-}
-
-/********************************************
-* Product Item Styles
-********************************************/
-@media only screen and (min-width: 768px) {
-	.item-horiz > img {
-		float: left;
-		width: 30%;
-		margin-right: 20px;
-	}
-}
-
-/********************************************
-* Footer Styles
-********************************************/
-.footer {
-	background-color: #dddddd;
-	padding: 15px 0;
-}
-
-/********************************************
+/***
 * Flexbox Sticky Footer
-********************************************/
-.site {
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
 	display: flex;
-	min-height: 100vh;
 	flex-direction: column;
+	min-height: 100vh;
 }
 
-.site-content {
-	flex: 1;
-}
-
-/********************************************
-* Bootstrap Flexbox
-* Equal height item boxes using Flexbox
-********************************************/
-.thumbnail {
-	width: 100%;
-}
-
-.row-flex {
-	display: flex;
-	flex: 1 1 auto;
-}
-
-.row-flex-wrap {
-	-webkit-flex-flow: row wrap;
-	align-content: flex-start;
-	flex: 0;
-}
-
-.row-flex > div[class*="col-"] {
-	display: flex;
-	flex: 1 1 auto;
-	margin: -.2px;
-}
-
-/********************************************
-* Google GSE Overrides
-* Corrects GSE and Bootstrap Style Conflicts
-********************************************/
-td#gs_tti50.gsib_a {
-	padding: 0 !important;
-}
-
-.gsst_a {
-	padding: 0 !important;
-}
-
-.gscb_a {
-	font-size: 1.4em !important;
-}
-
-.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
-	width: auto !important;
-	height: auto !important;
-	padding: 14px 30px !important;
-	margin: 4px 0 0 0 !important;
-}
-
-.gsc-input-box {
-	padding: 10px !important;
-	height: auto !important;
-}
-
-.cse .gsc-control-cse, .gsc-control-cse {
-	padding: 0 !important;
-}
-
-.cse .gsc-control-cse, .gsc-control-cse {
-	background-color: transparent !important;
-	border-color: transparent !important;
+.sfooter-content {
+	flex: 1 0 auto;
 }
