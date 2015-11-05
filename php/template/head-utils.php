@@ -1,7 +1,7 @@
 <?php
 /**
  * Get the relative path.
- * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/lib/header.php FarmToYou Header
+ * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/php/header.php FarmToYou Header
  **/
 require_once(dirname(dirname(__DIR__)) . "/root-path.php");
 $CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");

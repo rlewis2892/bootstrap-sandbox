@@ -5,14 +5,14 @@ $CURRENT_DIR = __DIR__;
 /*set page title here*/
 $PAGE_TITLE = "Bootstrap Sandbox";
 
-require_once("lib/template/head-utils.php");
+require_once("php/template/head-utils.php");
 ?>
 
 <!--include the <head> tag-->
-<?php require_once("lib/template/head-utils.php"); ?>
+<?php require_once("php/template/head-utils.php"); ?>
 
 	<header>
-		<?php require_once("lib/template/header.php"); ?>
+		<?php require_once("php/template/header.php"); ?>
 	</header>
 
 	<main class="container">
@@ -20,7 +20,7 @@ require_once("lib/template/head-utils.php");
 
 			<!--side panel here-->
 			<div class="col-md-4">
-				<?php require_once("lib/template/side-panel.php"); ?>
+				<?php require_once("php/template/side-panel.php"); ?>
 			</div>
 
 			<!--main content area-->
@@ -34,7 +34,7 @@ require_once("lib/template/head-utils.php");
 </div><!--.sfooter-content-->
 
 <footer class="footer">
-	<?php require_once("lib/template/footer.php"); ?>
+	<?php require_once("php/template/footer.php"); ?>
 </footer>
 
 </body>
