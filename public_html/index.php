@@ -15,7 +15,7 @@ require_once("php/template/head-utils.php");
 		<?php require_once("php/template/header.php"); ?>
 	</header>
 
-	<main class="container">
+	<div class="container">
 		<div class="row">
 
 			<!--side panel here-->
@@ -25,11 +25,19 @@ require_once("php/template/head-utils.php");
 
 			<!--main content area-->
 			<div class="col-md-8">
-				<h2>This is the Main Panel</h2>
+				<main>
+					<div class="jumbotron">
+						<h2>This is the Main Content Panel</h2>
+						<p>This example uses the Owl Carousel plugin, which features lazy-loading JSON functionality.</p>
+					</div>
+
+					<!-- load feed carousel -->
+					<?php require_once("php/template/carousel.php");?>
+				</main>
 			</div>
 
 		</div>
-	</main>
+	</div>
 
 </div><!--.sfooter-content-->
 
