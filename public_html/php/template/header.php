@@ -1,5 +1,5 @@
-<div class="container">
-	<nav class="navbar">
+<nav class="navbar navbar-fixed-top">
+	<div class="container">
 
 		<!-- logo and mobile toggle button get grouped together for better mobile display -->
 		<div class="navbar-header">
@@ -22,5 +22,6 @@
 				<li><a href="#">Link</a></li>
 			</ul>
 		</div>
-	</nav>
-</div>
+
+	</div><!--.container-->
+</nav><!--.navbar-->

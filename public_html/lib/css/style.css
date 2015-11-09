@@ -10,18 +10,18 @@
 /********************************************
 * Sample Styles
 ********************************************/
+body {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
 header,
 footer {
 	background-color: #dddddd;
 }
 
-header {
-	padding: 20px 0;
-	margin-bottom: 20px;
-}
-
 .navbar {
-	margin-bottom: 0;
+	background-color: pink;
 }
 
 footer {
@@ -33,28 +33,22 @@ footer {
 	padding: 20px;
 }
 
+.listing {
+	padding: 0;
+}
+
+.img-thumbnail {
+	margin-right: 10px;
+}
+
 /********************************************
-* Flexbox Layout Styles
+* Fixed panel Layout Styles
 ********************************************/
-.row-flex {
-	display: flex;
-	flex: 1 1 auto;
-}
-
-.row-flex-wrap {
-	-webkit-flex-flow: row wrap;
-	align-content: flex-start;
-	flex: 0;
-}
-
-.row-flex > div[class*="col-"] {
-	display: flex;
-	flex: 1 1 auto;
-	margin: -.2px;
-}
-
-.row-flex > div[class*="col-"] > * {
-	width: 100%;
+.side-panel {
+	min-height: 50vh;
+	max-height: 90vh;
+	position: fixed;
+	width: 300px;
 }
 
 /***
