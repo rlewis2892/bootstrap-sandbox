@@ -16,23 +16,23 @@ require_once("php/template/head-utils.php");
 	</header>
 
 	<div class="container">
-		<div class="row">
+		<div class="row row-flex row-flex-wrap">
 
-			<!--side panel here-->
+			<!-- side panel here -->
 			<div class="col-md-4">
 				<?php require_once("php/template/side-panel.php"); ?>
 			</div>
 
-			<!--main content area-->
+			<!-- main content area -->
 			<div class="col-md-8">
 				<main>
-					<div class="jumbotron">
+					<div class="panel panel-default">
 						<h2>This is the Main Content Panel</h2>
-						<p>This example uses the Owl Carousel plugin, which features lazy-loading JSON functionality.</p>
+						<p>This example uses the Owl Carousel plugin, which features lazy-loading JSON functionality. See: <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank">owlcarousel.owlgraphic.com</a></p>
 					</div>
 
-					<!-- load feed carousel -->
-					<?php require_once("php/template/carousel.php");?>
+					<!-- load feed -->
+					<?php require_once("php/template/feed.php");?>
 				</main>
 			</div>
 

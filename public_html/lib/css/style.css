@@ -29,6 +29,34 @@ footer {
 	margin-top: 20px;
 }
 
+.panel {
+	padding: 20px;
+}
+
+/********************************************
+* Flexbox Layout Styles
+********************************************/
+.row-flex {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+	align-content: flex-start;
+	flex: 0;
+}
+
+.row-flex > div[class*="col-"] {
+	display: flex;
+	flex: 1 1 auto;
+	margin: -.2px;
+}
+
+.row-flex > div[class*="col-"] > * {
+	width: 100%;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
