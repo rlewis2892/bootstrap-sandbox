@@ -38,9 +38,15 @@
 		</header>
 		<main>
 			<div class="container">
+
+				<!-- Instructions -->
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="well"><strong>Instructions</strong>: View the source code for the CSS, and add the Flexbox Column rules to your stylesheet. Add the class "row-flex" to each row that contains columns that need to be equal height. See Source code below.</div>
+						<div class="well">
+							<p><strong>Instructions</strong>: View the source code for the CSS, and add the Flexbox Column rules to your stylesheet. Add the class "row-flex" to each row that contains columns that need to be equal height. See Source code below.</p>
+							<p>This example is set to work on the <strong>md</strong> Bootstrap breakpoint on up. Adjust the <code>min-width</code> on the @media query if desired.
+								<br><strong>View on GitHub</strong>: <a href="https://github.com/rlewis2892/bootstrap-sandbox/tree/flexbox-columns" target="_blank">github.com/rlewis2892/bootstrap-sandbox/tree/flexbox-columns</a></p>
+						</div>
 					</div>
 				</div>
 
