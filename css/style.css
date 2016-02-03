@@ -1,0 +1,44 @@
+/********************************************
+* Flexbox Columns Example
+********************************************/
+
+/********************************************
+* Non-Essential Page Styles
+********************************************/
+header {
+	margin-bottom: 30px;
+	background-color: cornflowerblue;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.content-box {
+	background-color: #cccccc;
+	padding: 15px;
+}
+
+
+/********************************************
+* Flexbox Column Height Control
+* Equal height content boxes using Flexbox CSS
+*
+* Author: rlewis37
+********************************************/
+
+/*
+* add the class "row-flex" to each row that
+* houses columns that need to be equal height
+*/
+.row-flex {
+	display: flex;
+	flex: 1 1 auto;
+	-webkit-flex-flow: row wrap;
+	align-content: flex-start;
+}
+
+.row-flex > div[class*="col-"] {
+	display: flex;
+	flex: 1 1 auto;
+	margin: -.2px;
+	margin-bottom: 5px;
+}
