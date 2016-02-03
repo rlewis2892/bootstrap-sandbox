@@ -87,19 +87,29 @@
 /*
 * add the class "row-flex" to each row that
 * houses columns that need to be equal height
+*
+* this example is set to work on the MD breakpoint
+* adjust @media query min-width if necessary
 */
-.row-flex {
-  display: flex;
-  flex: 1 1 auto;
-  -webkit-flex-flow: row wrap;
-  align-content: flex-start;
-}
 
 .row-flex > div[class*="col-"] {
-  display: flex;
-  flex: 1 1 auto;
-  margin: -.2px;
   margin-bottom: 5px;
+}
+
+/* use the min-width of the appropriate breakpoint (this is set on md and lg)*/
+@media only screen and (min-width: 992px) {
+  .row-flex {
+    display: flex;
+    flex: 1 1 auto;
+    -webkit-flex-flow: row wrap;
+    align-content: flex-start;
+  }
+
+  .row-flex > div[class*="col-"] {
+    display: flex;
+    flex: 1 1 auto;
+    margin: -.2px;
+  }
 }
 
 /********************************************
