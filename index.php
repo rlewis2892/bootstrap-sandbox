@@ -7,10 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+				integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+				integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 		<!-- My Custom CSS rlewis37@cnm.edu -->
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
@@ -26,7 +28,9 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+				  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+				  crossorigin="anonymous"></script>
 
 		<title>Flexbox Columns</title>
 	</head>
@@ -43,45 +47,100 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="well">
-							<p><strong>Instructions</strong>: View the source code for the CSS, and add the Flexbox Column rules to your stylesheet. Add the class "row-flex" to each row that contains columns that need to be equal height. See Source code below.</p>
-							<p>This example is set to work on the <strong>md</strong> Bootstrap breakpoint on up. Adjust the <code>min-width</code> on the @media query if desired.
-								<br><strong>View on GitHub</strong>: <a href="https://github.com/rlewis2892/bootstrap-sandbox/tree/flexbox-columns" target="_blank">github.com/rlewis2892/bootstrap-sandbox/tree/flexbox-columns</a></p>
+							<p><strong>Instructions</strong>: View the source code for the CSS, and add the Flexbox Column
+								rules to your stylesheet. Add the class "row-flex" to each row that contains columns that need
+								to be equal height. See Source code below.</p>
+							<p>This example is set to work on the <strong>md</strong> Bootstrap breakpoint on up. Adjust the
+								<code>min-width</code> on the @media query if desired.
+								<br><strong>View on GitHub</strong>: <a
+									href="https://github.com/rlewis2892/bootstrap-sandbox/tree/flexbox-columns" target="_blank">github.com/rlewis2892/bootstrap-sandbox/tree/flexbox-columns</a>
+							</p>
 						</div>
 					</div>
 				</div>
 
 				<!-- Begin Columns Here -->
 				<div class="row row-flex">
-					<div class="col-md-3">
-						<div class="content-box">
-							<h4>Riker Ipsum</h4>
-							<p>Travel time to the nearest starbase? Fear is the true enemy, the only enemy. Now we know what they mean by 'advanced' tactical training. Flair is what marks the difference between artistry and mere competence. Yes, absolutely, I do indeed concur, wholeheartedly! But the probability of making a six is no greater than that of rolling a seven. Some days you get the bear, and some days the bear gets you. We finished our first sensor sweep of the neutral zone. I've had twelve years to think about it. And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? Not if I weaken first. I guess it's better to be lucky than good.</p>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="content-box">
-							<h4>Kitty Ipsum</h4>
-							<p>Burrow under covers jump off balcony, onto stranger's head nap all day meowing non stop for food spread kitty litter all over house. Purr for no reason meow so refuse to drink water except out of someone's glass. Leave dead animals as gifts jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed burrow under covers lay on arms while you're using the keyboard, cat is love, cat is life yet unwrap toilet paper.</p>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="content-box">
-							<h4>Hipster Ipsum</h4>
-							<p>Messenger bag food truck brooklyn mumblecore williamsburg, twee blue bottle banjo microdosing chicharrones dreamcatcher church-key hella cliche. Lumbersexual deep v single-origin coffee shabby chic intelligentsia. Mlkshk lo-fi try-hard, tote bag swag seitan celiac tacos.</p>
-							<p>iPhone humblebrag crucifix helvetica organic direct trade pickled. IPhone blog small batch, art party post-ironic direct trade keytar butcher. Gluten-free post-ironic chia, tilde deep v brunch ennui shabby chic mumblecore green juice ethical sartorial distillery slow-carb helvetica.</p>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="content-box">
-							<h4>Office Ipsum</h4>
-							<p>Value prop overcome key issues to meet key milestones, yet dogpile that. Social currency show pony bells and whistles pipeline can you ballpark the cost per unit for me deliverables. Reach out drill down, nor come up with something buzzworthy, but market-facing. Paddle on both sides level the playing field, and cross sabers. Accountable talk we need to button up our approach, pushback. Come up with something buzzworthy meeting assassin, but tbrand terrorists, but obviously. Old boys club get buy-in race without a finish line, three-martini lunch win-win cannibalize. Game-plan sacred cow. Paddle on both sides level the playing field, and cross sabers.</p>
-						</div>
-					</div>
-				</div><!--.row-->
-				<!-- End Column Example -->
 
-				<!-- Begin Source Code Snippets -->
-				<h3>CSS Source Code</h3>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="images/icon-ddcb-lg.png" alt="Deep Dive Logo" height="60" width="100">
+							<div class="caption">
+								<h3>CNM STEMulus Center Deep Dive Coders Bootcamp</h3>
+								<h3>Albuquerque, NM</h3>
+								<h4>Capstone Project:</h4>
+								<p>Project: Co-developer of Web-based, customized enterprise software solution that integrated
+									business process for scheduling employees.</p>
+								<h4>Coursework to include:</h4>
+								<ul>
+									<li>PHP 7</li>
+									<li>MySQL</li>
+									<li>JavaScript</li>
+									<li>Enterprise Application Development</li>
+									<li>Security</li>
+									<li>It Project Management</li>
+									<li>Web Design</li>
+									<li>Computer Architecture</li>
+									<li>Object Oriented Programming</li>
+									<li>Bootstrap 3</li>
+									<li>CSS 3</li>
+								</ul>
+								<p><a href="#" class="btn btn-primary" role="button">Capstone Project</a> <a
+										href="http://stemuluscenter.org/deep-dive-coding-bootcamp-application/"
+										class="btn btn-default" role="button">Apply For Deep Dive</a>
+								</p>
+							</div>
+						</div>
+					</div><!--/.col-->
+
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="images/gdi.jpg" alt="Girl Develop It Logo" height="700" width="700">
+							<div class="caption">
+								<h3>Girl Develop It!</h3>
+								<h3>Albuquerque, NM</h3>
+								<h4>Coursework to include:</h4>
+								<ul>
+									<li>HTML5</li>
+									<li>CSS 3</li>
+									<li>WAMP</li>
+									<li>PHP</li>
+									<li>MySQL</li>
+								</ul>
+								<p><a href="https://www.girldevelopit.com/chapters/albuquerque" class="btn btn-primary"
+										role="button">Girl Develop It!</a> <a
+										href="http://www.meetup.com/Girl-Develop-It-Albuquerque/" class="btn btn-default"
+										role="button">Meetup for Girl Develop It!</a>
+								</p>
+							</div>
+						</div>
+					</div><!--.col-->
+					​
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="images/teamworks.png" alt="Team Works Logo" height="120" width="200">
+							<div class="caption">
+								<h3>NM Commission on the Status of Women, Team Works</h3>
+								<h3>Albuquerque, NM</h3>
+								<h4>Coursework to include:</h4>
+								<ul>
+									<li>Computer science</li>
+									<li>user end information technology</li>
+									<li>interpersonal skills</li>
+									<li>Job readiness</li>
+									<li>Intro to building websites</li>
+								</ul>
+							</div>
+						</div>
+					</div><!--/.col-->
+				</div><!--/.row-->
+				<p class="pull-right"><a href="#">Back to top</a></p>
+
+			</div><!--.row-->
+			<!-- End Column Example -->
+
+			<!-- Begin Source Code Snippets -->
+			<h3>CSS Source Code</h3>
 				<pre>
 /********************************************
 * Flexbox Column Height Control
@@ -126,7 +185,7 @@
   padding: 15px;
 }
 				</pre>
-				<h3>HTML Source Code</h3>
+			<h3>HTML Source Code</h3>
 				<pre>
 &lt;!-- Begin Columns Here --&gt;
 &lt;div class="row row-flex"&gt;
