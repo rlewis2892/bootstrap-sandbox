@@ -213,11 +213,10 @@
 }
 
 /********************************************
-* Non-Essential Page Styles
+* Panel Styles
 ********************************************/
-.content-box {
-  background-color: #cccccc;
-  padding: 15px;
+.panel {
+  width: 100%
 }
 				</pre>
 				<h3>HTML Source Code</h3>
@@ -257,8 +256,7 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-&lt;!--/.row-flex--&gt;
+&lt;/div&gt;&lt;!--/.row-flex--&gt;
 &lt;!-- End DMancini Example --&gt;
 				</pre>
 				<!--end source code snippets-->
