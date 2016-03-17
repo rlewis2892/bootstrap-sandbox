@@ -222,80 +222,44 @@
 				</pre>
 				<h3>HTML Source Code</h3>
 				<pre>
-&lt;!-- Begin Columns Here --&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-xs-12"&gt;
+    &lt;h2&gt;Welcome to Zorah's! We have Flexbox Panels!&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Begin DMancini Example --&gt;
 &lt;div class="row row-flex"&gt;
 
-  &lt;div class="col-sm-6 col-md-4"&gt;
-    &lt;div class="thumbnail"&gt;
-      &lt;img src="images/icon-ddcb-lg.png" alt="Deep Dive Logo" height="60" width="100"&gt;
-      &lt;div class="caption"&gt;
-        &lt;h3&gt;CNM STEMulus Center Deep Dive Coders Bootcamp&lt;/h3&gt;
-        &lt;h3&gt;Albuquerque, NM&lt;/h3&gt;
-        &lt;h4&gt;Capstone Project:&lt;/h4&gt;
-        &lt;p&gt;Project: Co-developer of Web-based, customized enterprise software solution that integrated business process for scheduling employees.&lt;/p&gt;
-        &lt;h4&gt;Coursework to include:&lt;/h4&gt;
-        &lt;ul&gt;
-          &lt;li&gt;PHP 7&lt;/li&gt;
-          &lt;li&gt;MySQL&lt;/li&gt;
-          &lt;li&gt;JavaScript&lt;/li&gt;
-          &lt;li&gt;Enterprise Application Development&lt;/li&gt;
-          &lt;li&gt;Security&lt;/li&gt;
-          &lt;li&gt;It Project Management&lt;/li&gt;
-          &lt;li&gt;Web Design&lt;/li&gt;
-          &lt;li&gt;Computer Architecture&lt;/li&gt;
-          &lt;li&gt;Object Oriented Programming&lt;/li&gt;
-          &lt;li&gt;Bootstrap 3&lt;/li&gt;
-          &lt;li&gt;CSS 3&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;&lt;a href="#" class="btn btn-primary" role="button"&gt;Capstone Project&lt;/a&gt; &lt;a href="http://stemuluscenter.org/deep-dive-coding-bootcamp-application/" class="btn btn-default" role="button"&gt;Apply For Deep Dive&lt;/a&gt;
-        &lt;/p&gt;
+  &lt;div class="col-sm-6"&gt;
+    &lt;div class="panel panel-default"&gt;
+      &lt;div class="panel-heading"&gt;
+        &lt;h3 class="panel-title"&gt;Location&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;div class="panel-body"&gt;
+        &lt;p&gt;Wake up human for food at 4am vomit food and eat it again but hide when guests come over, yet claw drapes intrigued by the shower, and poop in litter box, scratch the walls. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide
+          in litter box until treats are fed swat turds around the house for meowzer! and knock dish off table head butt cant eat out of my own dish. Burrow under covers.&lt;/p&gt;
+        &lt;p&gt;Favor packaging over toy scratch the furniture and chew iPad power cord, so refuse to drink water except out of someone's glass hopped up on catnip, yet swat at dog chase dog then run away. Find empty spot in cupboard and sleep all day fall over
+          dead (not really but gets sypathy) my left donut is missing, as is my right. Knock dish off table head butt cant eat out of my own dish why must they do that dream about hunting birds, if it fits, i sits. Claws in your leg spit up on light gray
+          carpet instead of adjacent linoleum, yet sniff other cat's butt and hang jaw half open thereafter for intrigued by the shower, but hopped up on catnip spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce, but climb leg.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;&lt;!--/.col--&gt;
+  &lt;/div&gt;
 
-  &lt;div class="col-sm-6 col-md-4"&gt;
-    &lt;div class="thumbnail"&gt;
-      &lt;img src="images/gdi.jpg" alt="Girl Develop It Logo" height="700" width="700"&gt;
-      &lt;div class="caption"&gt;
-        &lt;h3&gt;Girl Develop It!&lt;/h3&gt;
-        &lt;h3&gt;Albuquerque, NM&lt;/h3&gt;
-        &lt;h4&gt;Coursework to include:&lt;/h4&gt;
-        &lt;ul&gt;
-          &lt;li&gt;HTML5&lt;/li&gt;
-          &lt;li&gt;CSS 3&lt;/li&gt;
-          &lt;li&gt;WAMP&lt;/li&gt;
-          &lt;li&gt;PHP&lt;/li&gt;
-          &lt;li&gt;MySQL&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;&lt;a href="https://www.girldevelopit.com/chapters/albuquerque" class="btn btn-primary" role="button"&gt;Girl Develop It!&lt;/a&gt; &lt;a href="http://www.meetup.com/Girl-Develop-It-Albuquerque/" class="btn btn-default" role="button"&gt;Meetup for Girl Develop It!&lt;/a&gt;
-        &lt;/p&gt;
+  &lt;div class="col-sm-6"&gt;
+    &lt;div class="panel panel-default"&gt;
+      &lt;div class="panel-heading"&gt;
+        &lt;h3 class="panel-title"&gt;Reviews&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;div class="panel-body"&gt;
+        &lt;p&gt;Wake up human for food at 4am vomit food and eat it again but hide when guests come over, yet claw drapes intrigued by the shower, and poop in litter box, scratch the walls. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide
+          in litter box until treats are fed swat turds around the house for meowzer! and knock dish off table head butt cant eat out of my own dish. Burrow under covers.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;&lt;!--.col--&gt;
-  ​
-  &lt;div class="col-sm-6 col-md-4"&gt;
-    &lt;div class="thumbnail"&gt;
-      &lt;img src="images/teamworks.png" alt="Team Works Logo" height="120" width="200"&gt;
-      &lt;div class="caption"&gt;
-        &lt;h3&gt;NM Commission on the Status of Women, Team Works&lt;/h3&gt;
-        &lt;h3&gt;Albuquerque, NM&lt;/h3&gt;
-        &lt;h4&gt;Coursework to include:&lt;/h4&gt;
-        &lt;ul&gt;
-          &lt;li&gt;Computer science&lt;/li&gt;
-          &lt;li&gt;user end information technology&lt;/li&gt;
-          &lt;li&gt;interpersonal skills&lt;/li&gt;
-          &lt;li&gt;Job readiness&lt;/li&gt;
-          &lt;li&gt;Intro to building websites&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;&lt;!--/.col--&gt;
-&lt;/div&gt;&lt;!--/.row--&gt;
-
-&lt;p class="pull-right"&gt;&lt;a href="#"&gt;Back to top&lt;/a&gt;&lt;/p&gt;
-
-&lt;/div&gt;&lt;!--.row--&gt;
-&lt;!-- End Column Example --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--/.row-flex--&gt;
+&lt;!-- End DMancini Example --&gt;
 				</pre>
 				<!--end source code snippets-->
 
