@@ -59,7 +59,7 @@
 					</div>
 				</div>
 
-				<!-- Begin Columns Here -->
+				<!-- Begin CHooker Example -->
 				<div class="row row-flex">
 
 					<div class="col-sm-6 col-md-4">
@@ -133,14 +133,19 @@
 							</div>
 						</div>
 					</div><!--/.col-->
-				</div><!--/.row-->
+				</div><!--/.row-flex-->
 				<p class="pull-right"><a href="#">Back to top</a></p>
+				<div class="clearfix"></div>
+				<!-- End CHooker Example -->
 
-			</div><!--.row-->
-			<!-- End Column Example -->
+				<!-- Begin DMancini Example -->
+				<div class="row row-flex">
+					hai
+				</div>
+				<!-- End DMancini Example -->
 
-			<!-- Begin Source Code Snippets -->
-			<h3>CSS Source Code</h3>
+				<!-- Begin Source Code Snippets -->
+				<h3>CSS Source Code</h3>
 				<pre>
 /********************************************
 * Flexbox Column Height Control
@@ -185,7 +190,7 @@
   padding: 15px;
 }
 				</pre>
-			<h3>HTML Source Code</h3>
+				<h3>HTML Source Code</h3>
 				<pre>
 &lt;!-- Begin Columns Here --&gt;
 &lt;div class="row row-flex"&gt;
@@ -261,8 +266,10 @@
 
 &lt;/div&gt;&lt;!--.row--&gt;
 &lt;!-- End Column Example --&gt;
-				</pre><!--end source coe snippets-->
-			</div><!--.container-->
+				</pre>
+				<!--end source code snippets-->
+
+			</div><!--./container-->
 		</main>
 	</body>
 </html>
