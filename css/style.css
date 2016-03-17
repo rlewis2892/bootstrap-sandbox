@@ -17,6 +17,10 @@ header {
 	padding: 15px;
 }
 
+.panel {
+	width: 100%;
+}
+
 
 /********************************************
 * Flexbox Column Height Control

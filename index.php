@@ -138,10 +138,40 @@
 				<div class="clearfix"></div>
 				<!-- End CHooker Example -->
 
+				<hr>
+
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Welcome to Zorah's! We have Flexbox Panels!</h2>
+					</div>
+				</div>
+
 				<!-- Begin DMancini Example -->
 				<div class="row row-flex">
-					hai
-				</div>
+
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Location</h3>
+							</div>
+							<div class="panel-body">
+								<p>Wake up human for food at 4am vomit food and eat it again but hide when guests come over, yet claw drapes intrigued by the shower, and poop in litter box, scratch the walls. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed swat turds around the house for meowzer! and knock dish off table head butt cant eat out of my own dish. Burrow under covers.</p>
+								<p>Favor packaging over toy scratch the furniture and chew iPad power cord, so refuse to drink water except out of someone's glass hopped up on catnip, yet swat at dog chase dog then run away. Find empty spot in cupboard and sleep all day fall over dead (not really but gets sypathy) my left donut is missing, as is my right. Knock dish off table head butt cant eat out of my own dish why must they do that dream about hunting birds, if it fits, i sits. Claws in your leg spit up on light gray carpet instead of adjacent linoleum, yet sniff other cat's butt and hang jaw half open thereafter for intrigued by the shower, but hopped up on catnip spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce, but climb leg.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Reviews</h3>
+							</div>
+							<div class="panel-body">
+								<p>Wake up human for food at 4am vomit food and eat it again but hide when guests come over, yet claw drapes intrigued by the shower, and poop in litter box, scratch the walls. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed swat turds around the house for meowzer! and knock dish off table head butt cant eat out of my own dish. Burrow under covers.</p>
+							</div>
+						</div>
+					</div>
+				</div><!--/.row-flex-->
 				<!-- End DMancini Example -->
 
 				<!-- Begin Source Code Snippets -->
