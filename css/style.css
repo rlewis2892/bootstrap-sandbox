@@ -17,28 +17,5 @@
 ********************************************/
 
 /********************************************
-* Flexbox Sticky Footer
-*
-* These rules keep the footer
-* at the bottom of viewport.
-*
-* .site goes on <body>
-* .site-content goes on main content wrapper
-*
-* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-********************************************/
-/*.site {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-}
-
-.site-content {
-	flex: 1;
-}*/
-
-
-
-/********************************************
 * Test Styles
 ********************************************/
