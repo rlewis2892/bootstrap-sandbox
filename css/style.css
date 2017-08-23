@@ -6,3 +6,41 @@
 * @author rlewis37@cnm.edu
 *
 ********************************************/
+
+/********************************************
+* COSMETIC STYLES
+********************************************/
+section {
+	padding: 10rem 0;
+}
+
+#home {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+#about {
+	background-color: rebeccapurple;
+	color: white;
+}
+
+#gallery {
+	background-color: black;
+	color: white;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 4rem 0;
+}
+
+
+
+/********************************************
+* SCROLLSPY STYLES
+********************************************/
+body {
+	position: relative;
+}
